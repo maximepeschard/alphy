@@ -18,7 +18,7 @@ Alfred 3 workflow to search and get links for GIFs on
 
 1. Download the latest version from [the releases
    page](https://github.com/maximepeschard/alphy/releases) of this repository.
-2. Double-click the downloaded `.alfred3workflow` file to install.
+2. Double-click the downloaded `.alfredworkflow` file to install.
 3. That's it. :clap:
 
 **Please note that this workflow is only for Alfred 3.**
@@ -52,10 +52,10 @@ desired keyword.
 
 ### Search limit
 
-By default, the search is limited to the first 8 results. However, this setting
-can be changed by going to the workflow settings (following the above
-directions), toggling the 'Workflow variables' pane by clicking the [x] icon and
-changing the `GIPHY_SEARCH_LIMIT` variable.
+By default, only the first 8 results are displayed. However, this setting can be
+changed by going to the workflow settings (following the above directions),
+toggling the 'Workflow variables' pane by clicking the [x] icon and changing the
+`GIPHY_SEARCH_LIMIT` variable.
 
 ### Cache management
 
@@ -83,6 +83,6 @@ This workflow uses the [Giphy public API](https://github.com/Giphy/GiphyAPI).
 
 ## Todo
 
-* Adding still images from Giphy as results icons ?
+* Add still images from Giphy as results icons ?
 * Request API production key
 
